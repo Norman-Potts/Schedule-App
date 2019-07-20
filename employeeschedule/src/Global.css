@@ -1,0 +1,25 @@
+/* Global Styles */
+body { background-color: rgb(63,72,204); color: black;	font-weight: bold; font-family: "Arial", "Helvetica", "Comic Sans MS", "Comic Sans"; }
+button { font-size: 1.5em;	font-family: "Arial", "Helvetica", "Comic Sans MS", "Comic Sans"; }
+input { font-size: 1.5em; font-weight: bold; font-family: "Arial", "Helvetica", "Comic Sans MS", "Comic Sans"; }
+select { font-family:"Arial", "Helvetica", "Comic Sans MS", "Comic Sans"; }
+textarea { font-family: "Arial", "Helvetica", "Comic Sans MS", "Comic Sans"; font-weight: bold; font-size: 1.5em; }
+pre { display: block; font-family: "Arial", "Helvetica", "Comic Sans MS", "Comic Sans"; white-space: wrap; margin: 1em 0; }
+.TextCenter { text-align: center; }
+.MargeZero { margin: 0; }
+.paddingZero { padding:0; }
+.bold { font-weight: bold; }
+.Bold { font-weight: bold;	 }
+.italics { font-style: italic; }
+.hidden { display: none; }
+#CenterBox { background-color: rgb(153,217,234); display: inline-block; overflow: hidden; border: 5px solid black; position: relative; width: 93%; min-height: 80vh; margin-top: 2%; margin-left: 2%; padding-top: 0.5vh; padding-bottom: 0.5vh; padding-left: 0.5vw; padding-right: 0.5vw; }
+/* End of Global Styles */
+#authorshipV2 { background: white; border: 5px solid black; float: right; display: block; padding: 0; }
+#authorshipV2 p { margin: 0.3em; padding: 0; }
+
+
+/*Classess for shifts*/
+.Lifeguard { background: rgb(237,28,36); }
+.Headguard { background: rgb(127,127,127); }
+.Instructor { background: rgb(0, 162, 232); }
+.Supervisor { background: rgb(218,112,214); }
